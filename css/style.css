@@ -903,17 +903,20 @@ header.abajo .nav-list a:hover {
 }
 
 /* ------ subscribete form ------ */
+#Subscribite{
+    height: 45rem;
+}
 .container-subs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     background-color: white;
-    margin: 10rem 5rem;
+    margin: 5rem;
     border-radius: 5px;
     box-shadow: 1px 1px 10px 1px rgba(255, 115, 0, 0.5);
 }
 .subsribete {
-    height: 40rem;
+    height: 30rem;
     width: 100%;
     margin: auto;
     display: flex;
@@ -1004,10 +1007,16 @@ header.abajo .nav-list a:hover {
     }
 }
 @media (max-width: 700px) {
-    .container-subs {
+    #Subscribite {
+        position: absolute;
+        height: 45rem;
+        width: 100%;
         background-image: url(../img/img-subs.jpg);
+    }
+    .container-subs {
         display: flex;
         justify-content: center;
+        align-items: center;
         background-color: white;
         margin:5rem 1rem;
     } 
