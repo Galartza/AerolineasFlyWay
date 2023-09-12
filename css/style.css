@@ -194,8 +194,10 @@ header.abajo .nav-list a:hover {
 
 .btn-reserva {
     background-color: var(--primario);
+    color: var(--negro);
     font-size: 1.2rem;
     font-weight: 700;
+    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: -1px;
     border: none;
@@ -209,6 +211,11 @@ header.abajo .nav-list a:hover {
     transition: all 0.2s ease 0s;
     transform: scale(1.03);
     cursor: pointer;
+}
+.btn-reserva-link {
+    background-color: transparent;
+    color: var(--negro);
+    text-decoration: none;
 }
 
 @media screen and (max-width:615px) {
