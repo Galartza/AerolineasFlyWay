@@ -388,13 +388,26 @@ header.abajo .nav-list a:hover {
 @media (max-width:768px) {
     #Destinos {
         width: 100%;
-        height: 110rem;
+        height: 40rem;
     }
 
     .destinos {
         grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
     }
-
+    .card-destinos {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+    .card {
+        flex: 1 0 auto;
+        margin: 0 30px;
+        width: 400px;
+        height: 400px;
+    }
     .title-destinos {
         margin-top: 5rem;
     }
